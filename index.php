@@ -6,6 +6,10 @@
     <title>Php Badwords</title>
 </head>
 <body>
-    
+    <form action="badword.php" method="GET">
+        <textarea name="paragraph" cols="30" rows="10"></textarea>
+        <input type="text" name="badword">
+        <button>Vai</button>
+    </form>
 </body>
 </html>
